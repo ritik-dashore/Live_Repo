@@ -43,7 +43,7 @@ passport.deserializeUser(function(obj, cb) {
 });
     
 app.get('/', (req, res) => {
-  res.send(`Hello, World 105!
+  res.send(`Hello, World!
     <a href="/auth/google">Login with Google</a>`);
 });
 
